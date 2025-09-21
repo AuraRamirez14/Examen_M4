@@ -12,7 +12,7 @@ def user_input_features():
   # Entrada
   Año = st.number_input('Año(yyyy):',  min_value=1982, max_value=2100, value = 2020, step = 1)
   Mes_index = st.number_input('Mes(Mm):', min_value=0, max_value=11, value = 0, step = 1)
-  Estado_index = st.sidebar.slider('Estado (0-31):', min_value=0, max_value=230, value = 0, step = 1)
+  Estado_index = st.sidebar.slider('Estado (0-31):', min_value=0, max_value=31, value = 0, step = 1)
 
   user_input_data = {'Año': Año,
                      'Mes_index': Mes_index,
