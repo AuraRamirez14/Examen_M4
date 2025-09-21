@@ -4,7 +4,7 @@ import pandas as pd
 
 st.title(''' Predicción del costo de la gasolina por año, mes y estado ''')
 st.image("gasolinaa.png", caption="Gasolina.", width=200)
-st.image("tabla.png", caption="Tabla de equivalencia de estados.", width=350)
+st.image("tabla.png", caption="Tabla de equivalencia de estados.", width=300)
 
 st.header('Datos')
 
